@@ -186,9 +186,9 @@
 #define HEATED_BED_PID_MAX 255
 #define HEATED_BED_DECOUPLE_TEST_PERIOD 300000
 #define MIN_EXTRUDER_TEMP 150
-#define MAXTEMP 250
+#define MAXTEMP 290
 #define MIN_DEFECT_TEMPERATURE -10
-#define MAX_DEFECT_TEMPERATURE 290
+#define MAX_DEFECT_TEMPERATURE 299
 #define MILLISECONDS_PREHEAT_TIME 30000
 
 // ##########################################################################################
@@ -613,7 +613,7 @@ Values must be in range 1..255
 #define UI_SET_MIN_HEATED_BED_TEMP  30
 #define UI_SET_MAX_HEATED_BED_TEMP 120
 #define UI_SET_MIN_EXTRUDER_TEMP   170
-#define UI_SET_MAX_EXTRUDER_TEMP   245
+#define UI_SET_MAX_EXTRUDER_TEMP   285
 #define UI_SET_EXTRUDER_FEEDRATE 2
 #define UI_SET_EXTRUDER_RETRACT_DISTANCE 3
 
@@ -872,7 +872,7 @@ Values must be in range 1..255
     "uiMinHeatedBed": 30,
     "uiMaxHeatedBed": 120,
     "uiMinEtxruderTemp": 170,
-    "uiMaxExtruderTemp": 245,
+    "uiMaxExtruderTemp": 285,
     "uiExtruderFeedrate": 2,
     "uiExtruderRetractDistance": 3,
     "uiSpeeddependentPositioning": "0",
@@ -937,9 +937,9 @@ Values must be in range 1..255
     "skipM109Within": 2,
     "extruderFanCoolTemp": 50,
     "minTemp": 150,
-    "maxTemp": 250,
+    "maxTemp": 290,
     "minDefectTemp": -10,
-    "maxDefectTemp": 290,
+    "maxDefectTemp": 299,
     "arcSupport": "1",
     "featureMemoryPositionWatchdog": "1",
     "forceChecksum": "0",
